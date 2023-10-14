@@ -1,2 +1,2 @@
 # multi-branch
-This is QA
+This is QA.
