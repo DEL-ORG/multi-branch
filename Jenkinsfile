@@ -28,7 +28,7 @@ pipeline {
             steps {
                 sh """
                   echo "cloning the repo, please wait ........"
-                  sleep 5
+                  sleep 1
                 """
             }
         }
@@ -37,7 +37,7 @@ pipeline {
             steps {
                 sh """
                   echo "building the code, please wait ........."
-                  sleep 5
+                  sleep 1
                 """
             }
         }
@@ -46,7 +46,7 @@ pipeline {
             steps {
                 sh """
                   echo "scanning the code, please wait ........"
-                  sleep 5
+                  sleep 1
                 """
             }
         }
@@ -57,7 +57,7 @@ pipeline {
             steps {
                 sh """
                   echo "clean up, please wait ........"
-                  sleep 5
+                  sleep 1
                 """
             }
         }
